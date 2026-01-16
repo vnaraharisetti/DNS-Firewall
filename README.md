@@ -24,6 +24,7 @@ This project implements a comprehensive DNS-based firewall using AdGuard Home ru
 - **DoH/DoT Support**: DNS-over-HTTPS and DNS-over-TLS capabilities
 
 ## 📊 Architecture
+```bash
 [All Network Devices]
 ↓
 [Home Router/Gateway] → DNS Settings Point to → [Raspberry Pi Zero 2W]
@@ -33,6 +34,7 @@ This project implements a comprehensive DNS-based firewall using AdGuard Home ru
 [Allowed Requests] [Blocked Requests]
 ↓ ↓
 [Upstream DNS] [Local Block]
+```
 
 ## 🛠️ Hardware & Software Stack
 
@@ -130,6 +132,7 @@ sudo systemctl enable AdGuardHome
 - Monitoring & Analytics: Configured real-time DNS query monitoring
 
 ## 📁 Project Structure
+```bash
 home-dns-firewall/
 ├── README.md              # This file
 ├── docs/                  # Additional documentation
@@ -140,6 +143,7 @@ home-dns-firewall/
 │   ├── install.sh        # Installation script
 │   └── update-filters.sh # Filter update script
 └── images/               # Screenshots and diagrams
+```
 
 ## 🚧 Challenges & Solutions
 
