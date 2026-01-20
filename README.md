@@ -131,54 +131,11 @@ sudo systemctl enable AdGuardHome
 - Documentation: Created comprehensive setup and configuration guides
 - Monitoring & Analytics: Configured real-time DNS query monitoring
 
-## 📁 Project Structure
-```bash
-home-dns-firewall/
-├── README.md              # This file
-├── docs/                  # Additional documentation
-├── configs/              # Configuration templates
-│   ├── adguardhome.yaml  # AdGuard Home configuration
-│   └── network-setup.md  # Network setup guide
-├── scripts/              # Automation scripts
-│   ├── install.sh        # Installation script
-│   └── update-filters.sh # Filter update script
-└── images/               # Screenshots and diagrams
-```
 
 ## 🚧 Challenges & Solutions
+- Before starting the project, understand your router's limitations( DNS settings may not be allowed to change)
+- Understand if pi is on network manager or nmcli, using network down or nmcli down will lead to connection break - reconnect to pi by restarting pi and connecting by ssh
+- Router and pi should be set up in range - out of range leads to internal ip address routing
 
 ## 🔮 Future Enhancements
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+using the setup to test and analyze security patterns, threats, and develop better preventive and defensive methods for the architecture.
