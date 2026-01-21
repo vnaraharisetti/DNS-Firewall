@@ -59,7 +59,8 @@ AdGuard Home provides a comprehensive web dashboard showing:
 - Query types and response times
 - Historical data with time-based filtering
 
-[dashboard screenshots]
+<img width="586" height="304" alt="12c9c26f-ff36-4887-84b7-af7db3c27d8e" src="https://github.com/user-attachments/assets/9290e782-8222-4ca1-93ff-49804de1706a" />
+
 
 ## 🚀 Installation & Configuration
 
@@ -68,7 +69,8 @@ AdGuard Home provides a comprehensive web dashboard showing:
 # Flash Raspberry Pi OS Lite (64-bit) bookworm to microSD card using Raspberry Pi Imager
 # Configure Wi-Fi/Ethernet and enable SSH
 # Boot Raspberry Pi Zero 2W
-# provide a static IP address for Raspberry Pi 
+# provide a static IP address for Raspberry Pi
+
 
 ```
 ### **2. AdGuard Home Installation**
